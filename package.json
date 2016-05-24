@@ -7,8 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Faceboo"
+    "Facebook"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-ooduntan/lagimo.git"
+  },
+  "author": "Hannah Koske",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-ooduntan/lagimo/issues"
+  },
+  "homepage": "https://github.com/andela-ooduntan/lagimo#readme",
   "author": "Oduntan Oluwatobiloba Stephen",
   "license": "ISC",
   "dependencies": {
