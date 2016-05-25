@@ -35,13 +35,13 @@ module.exports = function(passport) {
             return done(err);
 
           if (user) {
+
+            console.log(user);
+            console.log('kjkjs ksjkjd kdnsknk');
             return done(null, user);
           } else {
             var newUser = new User();
-
             console.log(profile);
-            console.log('kjkjs ksjkjd kdnsknk');
-
             newUser.facebook.id = profile.id;
             newUser.facebook.token = token;
             newUser.facebook.name = profile.displayName;
