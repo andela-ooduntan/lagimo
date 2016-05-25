@@ -40,6 +40,7 @@ module.exports = function(passport) {
             var newUser = new User();
 
             console.log(profile);
+            console.log('kjkjs ksjkjd kdnsknk');
 
             newUser.facebook.id = profile.id;
             newUser.facebook.token = token;
