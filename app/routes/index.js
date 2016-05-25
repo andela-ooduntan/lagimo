@@ -1,7 +1,7 @@
 // app/routes.js
 
 var scope = [
-  'email', 'user_about_me', 'user_photos', 'basic_info',
+  'email', 'user_about_me', 'user_photos', 'public_profile',
   'user_birthday', 'user_hometown', 'user_location'
 ];
 module.exports = function(app, passport) {
