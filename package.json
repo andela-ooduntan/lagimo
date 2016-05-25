@@ -13,14 +13,12 @@
     "type": "git",
     "url": "git+https://github.com/andela-ooduntan/lagimo.git"
   },
-  "author": "Hannah Koske",
+  "author": "Oduntan Oluwatobiloba Stephen",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/andela-ooduntan/lagimo/issues"
   },
   "homepage": "https://github.com/andela-ooduntan/lagimo#readme",
-  "author": "Oduntan Oluwatobiloba Stephen",
-  "license": "ISC",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.15.1",
@@ -29,6 +27,7 @@
     "ejs": "^2.4.2",
     "express": "^4.13.4",
     "express-session": "^1.13.0",
+    "mongoose": "^4.4.19",
     "morgan": "^1.7.0",
     "passport": "^0.3.2",
     "passport-facebook": "^2.1.1",
